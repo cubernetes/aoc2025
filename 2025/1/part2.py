@@ -1,5 +1,3 @@
-#!/usr/bin/env pypy3
-
 lines = open(0).read().splitlines()
 pos = 50
 password = 0
