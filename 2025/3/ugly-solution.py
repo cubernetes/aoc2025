@@ -1,7 +1,5 @@
 #!/usr/bin/env pypy3
 
-import re
-
 s = 0
 for line in open(0):
     digits = list(map(int, list(line.strip())))
