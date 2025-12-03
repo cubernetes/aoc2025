@@ -1,3 +1,5 @@
+#!/usr/bin/env pypy3
+
 s = 0
 num_digits = 12
 for line in open(0):
