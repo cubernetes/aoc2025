@@ -1,4 +1,4 @@
-d=$(cat)
+d=`cat`
 while((++i))
 rev<<<$d|sed ':x
 s/ \([+*]\)/\1\1/g
