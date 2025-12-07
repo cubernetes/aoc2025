@@ -1,0 +1,1 @@
+a=(`sed 's/./& /g;q'|tr .S 01`);while read c;do IFS=+ b=(${a[@]});for((i=0;++i<${#c}-1;))do [ ${c:i:1} = ^ ]&&((e=${b[i]},b[i-1]+=e,b[i+1]+=e,b[i]=0))done;a=(${b[@]});done;bc<<<${a[*]}
